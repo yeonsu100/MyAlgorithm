@@ -2,7 +2,7 @@ package gui_game;
 
 import javax.swing.JFrame;
 
-public class Game {
+public class Game01 {
 	public static void main(String[] args) {
 		JFrame frame=new JFrame();
 		frame.setTitle("Slide Game");

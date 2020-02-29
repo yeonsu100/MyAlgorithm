@@ -8,7 +8,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
-public class NumberSlidePuzzle extends JPanel implements ActionListener {
+class NumberSlidePuzzle extends JPanel implements ActionListener {
 	JButton slide[][];
 	Random ran;
 	NumberSlidePuzzle() {
