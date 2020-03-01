@@ -46,14 +46,7 @@ class From1To50 extends JPanel implements MouseListener, MouseMotionListener {
 			g.drawString(rect[i].num+"", rect[i].x+20, rect[i].y+20);
 		}
 	}
-	
-	
-	
-	@Override
-	public void mouseDragged(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 	@Override
 	public void mouseMoved(MouseEvent e) {
@@ -71,12 +64,6 @@ class From1To50 extends JPanel implements MouseListener, MouseMotionListener {
 	}
 
 	@Override
-	public void mouseClicked(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void mousePressed(MouseEvent e) {
 		int x=e.getX();
 		int y=e.getY();
@@ -91,21 +78,18 @@ class From1To50 extends JPanel implements MouseListener, MouseMotionListener {
 	}
 
 	@Override
-	public void mouseReleased(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void mouseClicked(MouseEvent e) {}
+	
+	@Override
+	public void mouseDragged(MouseEvent e) {}
+	
+	@Override
+	public void mouseReleased(MouseEvent e) {}
 
 	@Override
-	public void mouseEntered(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void mouseEntered(MouseEvent e) {}
 
 	@Override
-	public void mouseExited(MouseEvent e) {
-		// TODO Auto-generated method stub
-		
-	}
+	public void mouseExited(MouseEvent e) {}
 
 }
