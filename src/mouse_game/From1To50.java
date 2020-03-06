@@ -8,7 +8,7 @@ import java.awt.event.MouseMotionListener;
 
 import javax.swing.JPanel;
 
-class Rect{int x; int y; int size; int num; Color color; int back;}
+class Rect{int x; int y; int size; int num; Color color; int back;};
 
 class From1To50 extends JPanel implements MouseListener, MouseMotionListener {
 	Rect [] rect=new Rect[25];
